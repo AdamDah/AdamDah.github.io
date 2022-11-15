@@ -52,8 +52,9 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <!--<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-run"></i> <span>Interests</span></a></li>-->
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -92,7 +93,7 @@
             
             <p>
               My professional experiences have given an appetite for finance and economics, especially in the fields of banking and insurance. 
-              Found different sports such as Judo or swimming, my years of practice have allowed me to acquire dynamism, rigor and team spirit; qualities that I apply in each aspect of my life, and which contribute to my personal development.
+              Found of different sports such as Judo or swimming, my years of practice have allowed me to acquire dynamism, rigor and team spirit; qualities that I apply in each aspect of my life, and which contribute to my personal development.
             </p>
 
             <div class="row">
@@ -115,52 +116,105 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Interests</h2>
+          <h2>Portfolio</h2>
+          <p>Here are a few projects and achivements I've completed. Feel free to look at them and to ask me if you have any question.</p>
         </div>
 
-        <div class="row no-gutters">
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web3">WEB 3</li>
+              <li data-filter=".filter-fin">Finance</li>
+              <li data-filter=".filter-certif">Certifications</li>
+              <li data-filter=".filter-event">Events</li>
+            </ul>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="box">
-              <i class="bi bi-bicycle" style="font-size: 50px"></i>
-              <p style = "font-size:30px"><strong>Sports</strong></p>
-              <p> I practiced swimming and Judo for 10 years. I attended the 2019 French University Championships of swimming.</p>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fin">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" rel="noopener noreferrer" href="Sales Forecast StockX.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <p>StockX Sales Forecasting</p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <i class="bi bi-airplane" style="font-size: 50px"></i>
-              <p style = "font-size:30px"><strong>Travel</strong></p>
-              <p> I'm a passionate world traveler who enjoys experiencing new cultures. I've traveled 20+ countries across Europe, Africa, Asia and North America. I participated in a global exchange program for 6 months in Seoul, South Korea.</p>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fin">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ad.dhml20/scrap-sneakers-data-with-selenium-on-stockx-e6845719f384" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <p>Data crapping on StockX with Selenium</p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <i class="bi bi-globe2" style="font-size: 50px"></i>
-              <p style = "font-size:30px"><strong>WEB 3</strong></p>
-              <p> Passion for tech, new technologies with a specialty in web3 technologies : Blockchain, DeFi, Crypto Assets </p>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-event filter-web3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/laetitia-cuirot-educatia_web3-activity-6993456255470084096-5u8I?utm_source=share&utm_medium=member_desktop" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <p>WEB3 Hackathon</p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <i class="bi bi-scissors" style="font-size: 50px"></i>
-              <p style = "font-size:30px"><strong>Design </strong></p>
-              <p> I have a strong interest in fashion and home design. In my spare time, I enjoy thrifting and attending flea markets. </p>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web3">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" rel="noopener noreferrer" href="Crypto_tweets_analysis.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <p>Crypto Tweets Analysis</p>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-certif">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jfif" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/adam-dahmoul-556b8a184_statistics-1-introduction-to-anova-regression-activity-6737432574605434881-lBRC?utm_source=share&utm_medium=member_desktop" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <p>SAS Certification</p>
+              </div>
+            </div>
+          </div>
+          
+          <!--
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        -->
 
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -259,69 +313,53 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Here are a few projects and achivements I've completed. Feel free to look at them and to ask me if you have any question.</p>
+          <h2>Interests</h2>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web3">WEB 3</li>
-              <li data-filter=".filter-fin">Finance</li>
-              <li data-filter=".filter-certif">Certifications</li>
-              <li data-filter=".filter-event">Events</li>
-            </ul>
-          </div>
-        </div>
+        <div class="row no-gutters">
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web3">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a target="_blank" rel="noopener noreferrer" href="Crypto_tweets_analysis.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-              <div class="portfolio-info">
-                <p>Crypto Tweets Analysis</p>
-              </div>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="box">
+              <i class="bi bi-bicycle" style="font-size: 50px"></i>
+              <p style = "font-size:30px"><strong>Sports</strong></p>
+              <p> I practiced swimming and Judo for 10 years. I attended the 2019 French University Championships of swimming.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-certif">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jfif" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/adam-dahmoul-556b8a184_statistics-1-introduction-to-anova-regression-activity-6737432574605434881-lBRC?utm_source=share&utm_medium=member_desktop" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-              <div class="portfolio-info">
-                <p>SAS Certification</p>
-              </div>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <i class="bi bi-airplane" style="font-size: 50px"></i>
+              <p style = "font-size:30px"><strong>Travel</strong></p>
+              <p> I'm a passionate world traveler who enjoys experiencing new cultures. I've traveled 20+ countries across Europe, Africa, Asia and North America. I participated in a global exchange program for 6 months in Seoul, South Korea.</p>
             </div>
           </div>
-          
-          <!--
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <i class="bi bi-globe2" style="font-size: 50px"></i>
+              <p style = "font-size:30px"><strong>WEB 3</strong></p>
+              <p> Passion for tech, new technologies with a specialty in web3 technologies : Blockchain, DeFi, Crypto Assets </p>
             </div>
           </div>
-        -->
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <i class="bi bi-scissors" style="font-size: 50px"></i>
+              <p style = "font-size:30px"><strong>Design </strong></p>
+              <p> I have a strong interest in fashion and home design. In my spare time, I enjoy thrifting and attending flea markets. </p>
+            </div>
+          </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Facts Section -->
+
 
   </main><!-- End #main -->
 
